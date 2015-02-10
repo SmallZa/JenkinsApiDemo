@@ -9,8 +9,8 @@ package jenkins;
  * @Date           2015年1月29日 上午10:35:15
  */
 public class BaseData {
-	public static String USERNAME = "zhaihuayang";
-	public static String APITOKEN = "485a1b389231b0e6a29b7eac65bff6fc";
+	public static String USERNAME = "YOUR_USERNAME";
+	public static String APITOKEN = "YOUR_APITOKEN";
 	public static String JENKINSURL = "http://quad.ecom.jenkins.baidu.com/";
 	
 	/**获取job的视图方式，json和xml两种*/
