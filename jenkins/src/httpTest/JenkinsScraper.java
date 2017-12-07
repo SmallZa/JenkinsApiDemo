@@ -48,7 +48,7 @@ public class JenkinsScraper {
 		JenkinsScraper js = new JenkinsScraper();
 		String urlString="http://quad.ecom.jenkins.baidu.com/api/json?tree=jobs[name,color,url]{0,4}";
 		final String USER = "zhaihuayang";
-	    final String APIToken = "485a1b389231b0e6a29b7eac65bff6fc";
+	    final String APIToken = "faketoken";
 		System.out.println(js.scrape(urlString, USER, APIToken));
 	}
 
